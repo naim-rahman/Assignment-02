@@ -1,0 +1,246 @@
+
+/* shared style */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'miama';
+    src: url('fonts/Miama-Regular.ttf');
+}
+
+body {
+    width: 100%;
+    background: #000;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    margin: 0 150px;
+    margin-top: 50px;
+}
+
+.section-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.description {
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.description-02 {
+    color: rgba(255, 255, 255, 0.50);
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 1.5rem 0;
+}
+
+.btn-primary {
+    width: 200px;
+    padding: 1rem;
+    border-radius: 42px;
+    background: #E6533C;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    width: 200px;
+    background: #000;
+    border: 1px solid #FFF;
+    padding: 1rem;
+    border-radius: 42px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background: #0b5ed7;
+    color: #ffffff;
+    border: 1px solid #FFF;
+}
+
+.btn-secondary:hover {
+    background: #0b5ed7;
+    color: #ffffff;
+}
+
+
+/* nav related style */
+
+header {
+    margin: o auto;
+    height: auto;
+    background: linear-gradient(180deg, #111 1000%, rgba(119, 119, 119, 0.00) 100%);
+}
+
+.navbar {
+    margin: 0px 180px;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+}
+
+.logo {
+    color: #E6533C;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.nav-content {
+    border-radius: 40px;
+    border: 1.5px solid rgba(255, 255, 255, 0.10);
+    padding: 4px;
+}
+
+.nav-items {
+    gap: 2rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-items a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.nav-items a:hover {
+    padding: 8px 20px;
+    border-radius: 45px;
+    background: #E6533C;
+}
+
+.menu {
+    display: none;
+    color: #FFF;
+    font-size: x-large;
+}
+
+#active {
+    padding: 8px 20px;
+    border-radius: 45px;
+    background: #E6533C;
+}
+
+/* banner related style */
+
+.banner {
+    margin: 0 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 78px;
+    font-weight: 900;
+}
+
+/* shape style */
+
+#shape {
+    font-family: 'miama';
+}
+
+
+.banner-description {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 1.5rem 0;
+}
+
+.btn-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.banner-img {
+    background: url('../images/Images\ 2.png');
+    position: relative;
+    width: 349px;
+    height: 580px;
+    flex-shrink: 0;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.workout {
+    width: 140px;
+    position: absolute;
+    left: 220px;
+    top: 90px;
+}
+
+.tutorial {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 300px;
+    bottom: 65px;
+}
+
+.play {
+    font-size: 2rem;
+    color: #E6533C;
+    background-color: #FFF;
+    padding: 2px;
+    border-radius: 47%;
+
+}
+
+.workout,
+.tutorial {
+
+    padding: 0.5rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(8px);
+}
+
+.workout h2,
+.tutorial h2 {
+    color: #FFF;
+    font-size: 2.25rem;
+    font-weight: 900;
+}
+
+.workout p,
+.tutorial p {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+}
+

@@ -413,3 +413,74 @@ header {
     left: 20px;
     bottom: 20px;
 }
+
+/* BMI calculator section */
+
+.BMI-container {
+    display: flex;
+    width: 100%;
+    margin-top: 80px;
+    background: #222;
+    padding: 2rem 150px;
+}
+
+.section-title-info {
+    text-align: left;
+    margin-left: 250px;
+}
+
+.BMI-chart,
+.BMI-calculator {
+    width: 50%;
+}
+
+.BMI-chart h3,
+.BMI-calculator h3 {
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+.table>table,
+th,
+td {
+    height: auto;
+    padding: 1rem;
+    text-align: start;
+    border: 2px solid #ffffff3b;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+.table>table,
+th {
+    color: #FFF;
+    font-size: 1rem;
+}
+
+.table>table,
+td {
+    color: #ffffff7b;
+    font-size: 14px;
+}
+
+.from {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.from>input,
+select {
+    color: rgba(255, 255, 255, 0.60);
+    padding: 12px 2.5rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.10);
+    border: none;
+    outline: none;
+}
+
+#activity {
+    width: 100%;
+    margin: 1rem 0;
+}

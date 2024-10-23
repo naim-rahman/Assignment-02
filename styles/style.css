@@ -1,4 +1,3 @@
-
 /* shared style */
 
 * {
@@ -483,4 +482,74 @@ select {
 #activity {
     width: 100%;
     margin: 1rem 0;
+}
+
+/* choose the plan section */
+
+.plan-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: #222;
+    border-radius: 1rem;
+    padding: 1rem;
+    gap: 1.5rem;
+    margin-top: 50px;
+}
+
+.plan-card {
+    border: 1px solid #E6533C;
+    height: 340px;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#card-second {
+    background-color: #E6533C;
+    height: 380px;
+}
+
+.plan-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: #FFF;
+    margin: 1rem auto;
+}
+
+.plan-price {
+    font-size: 2rem;
+    color: #FFF;
+    font-weight: 600;
+}
+
+#description {
+    color: rgba(255, 255, 255, 0.50);
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0.5rem 0;
+    margin-left: 10px;
+}
+
+.list {
+    margin: 1rem 0;
+}
+
+.list li {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffffcd;
+    margin-left: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+#btn-plan {
+    width: 100%;
+    align-items: center;
+}
+
+.btn-white {
+    background-color: #fffffff8;
+    color: #E6533C;
 }

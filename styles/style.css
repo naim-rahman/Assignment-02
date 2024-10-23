@@ -303,3 +303,113 @@ header {
     height: 100%;
     border-radius: 1rem;
 }
+
+/* meet our team style start */
+
+.team-container {
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.10);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+}
+
+#trainer-img1 {
+    background: linear-gradient(10deg, rgba(0, 0, 0, 0.459) 0%, rgba(0, 0, 0, 0.327) 100%), url('../images/trainer1.png');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 272px;
+    width: 100%;
+    position: relative;
+}
+
+#trainer-img2 {
+    background: linear-gradient(10deg, rgba(0, 0, 0, 0.459) 0%, rgba(0, 0, 0, 0.327) 100%), url('../images/trainer2.png');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 272px;
+    width: 100%;
+    position: relative;
+}
+
+#trainer-img3 {
+    background: linear-gradient(10deg, rgba(0, 0, 0, 0.459) 0%, rgba(0, 0, 0, 0.327) 100%), url('../images/trainer3.png');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 272px;
+    width: 100%;
+    position: relative;
+}
+
+#trainer-img4 {
+    background: linear-gradient(10deg, rgba(0, 0, 0, 0.459) 0%, rgba(0, 0, 0, 0.327) 100%), url('../images/trainer4.png');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 272px;
+    width: 100%;
+    position: relative;
+}
+
+#trainer-img5 {
+    background: linear-gradient(10deg, rgba(0, 0, 0, 0.459) 0%, rgba(0, 0, 0, 0.327) 100%), url('../images/trainer5.png');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 272px;
+    width: 100%;
+    position: relative;
+}
+
+#trainer-img6 {
+    background: linear-gradient(10deg, rgba(0, 0, 0, 0.459) 0%, rgba(0, 0, 0, 0.327) 100%), url('../images/trainer6.png');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 272px;
+    width: 100%;
+    position: relative;
+}
+
+.img-info h3 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.img-info p {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.img-info {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
